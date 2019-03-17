@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js":[function(require,module,exports) {
+})({"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -10683,7 +10683,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":"../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"file.js":[function(require,module,exports) {
+},{"process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"file.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -10786,7 +10786,7 @@ var tumblrURL = 'https://www.tumblr.com/login?redirect_to=https%3A%2F%2Fwww.tumb
     window.open(tumblrURL + '"' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
   });
 });
-},{"jquery":"node_modules/jquery/dist/jquery.js"}],"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"jquery":"node_modules/jquery/dist/jquery.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -10813,7 +10813,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52683" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59432" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -10955,5 +10955,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","file.js"], null)
+},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","file.js"], null)
 //# sourceMappingURL=/file.01e8bb1d.map

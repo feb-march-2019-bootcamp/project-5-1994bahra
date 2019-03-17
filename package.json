@@ -1,7 +1,7 @@
 {
   "name": "rrr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Build a Random Quote Machine similar to the one shown in the link below:\r https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/",
   "main": "file.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.2",
+    "build":"vue-cli-service build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feb-march-2019-bootcamp/project-5-1994bahra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feb-march-2019-bootcamp/project-5-1994bahra/issues"
+  },
+  "homepage": "https://github.com/feb-march-2019-bootcamp/project-5-1994bahra#readme"
 }
